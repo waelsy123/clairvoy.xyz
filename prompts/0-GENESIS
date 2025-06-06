@@ -1,0 +1,43 @@
+Genesis Prompt for Clairvoy.xyz
+
+Clairvoy.xyz represents an advanced, comprehensive analytical platform meticulously designed to identify and anticipate significant insider activities and market-moving events through systematic analysis of token transactions and their corresponding blockchain addresses.
+
+The analytical workflow begins upon receiving specific inputs:
+
+* The ERC20 smart contract address under investigation.
+* Relevant endpoints from reputable third-party data providers.
+
+Initially, Clairvoy.xyz establishes an appropriate blockchain block number for initiating its chronological transaction analysis. The scrutiny process specifically emphasizes transactions involving entities presumed to have privileged information—such as token development teams, market makers, prominent wallets affiliated with centralized exchanges, and associated projects. Collectively, these addresses constitute an initial investigative group referred to as the "dev/insiders" list.
+
+Each transaction undergoes rigorous analysis utilizing sophisticated language modeling technologies (e.g., OpenAI's GPT models). Analytical inputs encompass:
+
+1. A comprehensive historical transaction ledger relevant to the token.
+2. Detailed logs of the current transaction.
+3. A precise snapshot of wallet holdings at the exact blockchain block of the transaction under analysis.
+4. Wallet metadata and associated labels from authoritative third-party intelligence services, notably Nansen and Arkham Intelligence, further augmented by supplementary reputable labeling sources as available.
+
+Outputs from this analytical modeling are structured explicitly in JSON format, detailing:
+
+* A precise characterization of the transaction's purpose or nature.
+* Identification and labeling of insider wallets, including explicit reasoning underpinning each assigned label.
+* A numerical "hotness" metric (ranging from 1 to 10), reflecting the transaction’s anticipated relevance and potential market influence.
+* Anticipatory insights concerning imminent developments, such as planned exchange listings, establishment of liquidity pools, or orchestrated market manipulations.
+* Additional nuanced transaction properties uncovered during analysis.
+
+Insider wallets identified through this process are systematically appended to a dynamic watchlist, maintaining continuous vigilance.
+
+Clairvoy.xyz incorporates a robust human-in-the-loop mechanism, periodically summarizing key emerging trends and transactional insights succinctly. This provision facilitates expert guidance to refine subsequent analytical efforts, either deepening investigative scrutiny on select transactions and wallets or excluding peripheral data points deemed insignificant.
+
+Further enriching the Clairvoy.xyz analytical suite are several advanced functionalities:
+
+* **Risk Assessment Module**: Employing heuristic methodologies and machine learning techniques to detect and flag potentially fraudulent or high-risk transaction behaviors.
+* **Historical Pattern Recognition**: Utilizing advanced analytical methods to recognize and anticipate recurrence of documented insider activity patterns.
+* **Real-time Alerts and Notifications**: Immediate dissemination of critical insights via email, Telegram, and alternative notification channels.
+* **Visualization Dashboard**: Comprehensive, interactive visualization features employing advanced graphical representations and chronologically structured timelines.
+* **Regulatory Compliance Analytics**: Ensuring that insights align rigorously with contemporary financial regulatory frameworks.
+* **Privacy Enhancement Features**: Sophisticated mechanisms designed for data anonymization and regulatory compliance.
+* **Integration APIs**: Facilitating seamless interoperability with external applications, including trading algorithms and portfolio management systems.
+* **Social Media and Sentiment Analysis Integration**: Integration of external sentiment data sourced from social platforms such as Twitter and Reddit, enabling correlation analysis with blockchain activities.
+* **Collaborative Analysis Infrastructure**: Platforms enabling collective intelligence gathering and crowdsourced analytical contributions.
+
+In sum, Clairvoy.xyz provides a robust, comprehensive, and meticulously engineered solution tailored to diverse stakeholder requirements—from independent traders to institutional analysts—facilitating accurate, actionable insights into blockchain token ecosystems.
